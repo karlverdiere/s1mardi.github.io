@@ -1,0 +1,118 @@
+#topsection
+{
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	margin: auto 5px;
+}
+
+p
+{
+	font-family:arial,sans-verif;
+}
+
+body
+{
+	color: grey;
+}
+.head
+{
+ display: flex;
+ justify-content: space-between;
+ margin: auto 5px;
+}
+
+#menu
+{
+display: flex;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+align-content: center;
+align-items: center;
+margin-top: 170px;
+}
+.cent
+{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.center
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: blink;
+}
+
+footer
+{
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-color: #f2f2f2;
+}
+
+#gaucheDroite
+{
+/*right: 0;
+left: 0;
+bottom: 0;
+:hover
+background-color: #f2f2f2; */
+border-bottom: solid 1px silver;
+display: flex;
+justify-content:space-between;
+}
+
+.gauche
+{
+ margin-left:10px;
+ margin-right:30px;
+ height: 35px;
+ margin-top:5px;
+}
+
+.droite
+{
+margin-left:10px;
+margin-right:30px;
+height: 35px;
+margin-top:10px;
+}
+
+
+.country
+{
+	margin-left:10px;
+	margin-top:10px;
+	height:35px;
+	border-bottom:solid 1px silver;
+
+}
+
+
+
+.a
+{
+	margin-right: 10px;
+	text-decoration: none;
+	color: grey;
+}
+
+.connexion
+{
+background-color: blue;
+margin-top: -20px
+font-size: 13px
+color:white;
+padding: 8px
+font-weight: bold
+border-radius: 5px;
+width: 50px;
+opacity:0,7;
+}
